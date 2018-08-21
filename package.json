@@ -1,0 +1,21 @@
+{
+  "name": "mysql-connections",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/server",
+    "test": "eslint bin/*.js config/*.js lib/*.js lib/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bluebird": "3.5.1",
+    "mysql": "2.16.0",
+    "pidusage": "git://github.com/jrgm/pidusage.git"
+  },
+  "devDependencies": {
+    "eslint": "5.4.0",
+    "eslint-plugin-fxa": "git+https://github.com/mozilla/eslint-plugin-fxa#master"
+  }
+}
